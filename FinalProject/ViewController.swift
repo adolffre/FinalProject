@@ -8,14 +8,18 @@
 
 import UIKit
 import Framework3
+import FrameworkObjC1
 
 
 class ViewController: UIViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
-        let a = Test3()
-        print(a.test())
+        
+        let framework3Test = Test3()
+        print(framework3Test.test())
+        
+        print(TestObjC1.test())
         // Do any additional setup after loading the view, typically from a nib.
     }
 

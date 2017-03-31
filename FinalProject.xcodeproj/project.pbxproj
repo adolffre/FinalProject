@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		3A08533E1E8E986100CD0D95 /* FrameworkObjC1.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3A08533C1E8E986100CD0D95 /* FrameworkObjC1.framework */; };
+		3A08533F1E8E986100CD0D95 /* FrameworkObjC1.framework.dSYM in Frameworks */ = {isa = PBXBuildFile; fileRef = 3A08533D1E8E986100CD0D95 /* FrameworkObjC1.framework.dSYM */; };
 		3A62F5991E8D606D0036E8E7 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A62F5981E8D606D0036E8E7 /* AppDelegate.swift */; };
 		3A62F59B1E8D606D0036E8E7 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A62F59A1E8D606D0036E8E7 /* ViewController.swift */; };
 		3A62F59E1E8D606D0036E8E7 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3A62F59C1E8D606D0036E8E7 /* Main.storyboard */; };
@@ -40,6 +42,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		3A08533C1E8E986100CD0D95 /* FrameworkObjC1.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = FrameworkObjC1.framework; path = ../Frameworks/Carthage/Build/iOS/FrameworkObjC1.framework; sourceTree = "<group>"; };
+		3A08533D1E8E986100CD0D95 /* FrameworkObjC1.framework.dSYM */ = {isa = PBXFileReference; lastKnownFileType = wrapper.dsym; name = FrameworkObjC1.framework.dSYM; path = ../Frameworks/Carthage/Build/iOS/FrameworkObjC1.framework.dSYM; sourceTree = "<group>"; };
 		3A62F5951E8D606D0036E8E7 /* FinalProject.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FinalProject.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		3A62F5981E8D606D0036E8E7 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		3A62F59A1E8D606D0036E8E7 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -72,6 +76,8 @@
 				3A62F5D01E8D619A0036E8E7 /* Framework2.framework.dSYM in Frameworks */,
 				3A62F5D11E8D619A0036E8E7 /* Framework3.framework in Frameworks */,
 				3A62F5D21E8D619A0036E8E7 /* Framework3.framework.dSYM in Frameworks */,
+				3A08533E1E8E986100CD0D95 /* FrameworkObjC1.framework in Frameworks */,
+				3A08533F1E8E986100CD0D95 /* FrameworkObjC1.framework.dSYM in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -147,6 +153,8 @@
 		3A62F5C61E8D619A0036E8E7 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				3A08533C1E8E986100CD0D95 /* FrameworkObjC1.framework */,
+				3A08533D1E8E986100CD0D95 /* FrameworkObjC1.framework.dSYM */,
 				3A62F5C71E8D619A0036E8E7 /* Framework1.framework */,
 				3A62F5C81E8D619A0036E8E7 /* Framework1.framework.dSYM */,
 				3A62F5C91E8D619A0036E8E7 /* Framework2.framework */,
@@ -297,6 +305,7 @@
 				"$(SRCROOT)/Carthage/Build/iOS/Framework1.framework",
 				"$(SRCROOT)/Carthage/Build/iOS/Framework2.framework",
 				"$(SRCROOT)/Carthage/Build/iOS/Framework3.framework",
+				"$(SRCROOT)/Carthage/Build/iOS/FrameworkObjC1.framework",
 			);
 			outputPaths = (
 			);
@@ -563,6 +572,7 @@
 				3A62F5BF1E8D606D0036E8E7 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		3A62F5C01E8D606D0036E8E7 /* Build configuration list for PBXNativeTarget "FinalProjectTests" */ = {
 			isa = XCConfigurationList;
@@ -571,6 +581,7 @@
 				3A62F5C21E8D606D0036E8E7 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		3A62F5C31E8D606D0036E8E7 /* Build configuration list for PBXNativeTarget "FinalProjectUITests" */ = {
 			isa = XCConfigurationList;
@@ -579,6 +590,7 @@
 				3A62F5C51E8D606D0036E8E7 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

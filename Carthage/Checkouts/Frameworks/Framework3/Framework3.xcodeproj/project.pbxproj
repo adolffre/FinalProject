@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		3A26680D1E8E69E50086E95F /* Test3.swift in Headers */ = {isa = PBXBuildFile; fileRef = 3A62F5801E8D5E0D0036E8E7 /* Test3.swift */; };
 		3A62F5701E8D5E030036E8E7 /* Framework3.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3A62F5661E8D5E030036E8E7 /* Framework3.framework */; };
 		3A62F5751E8D5E030036E8E7 /* Framework3Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A62F5741E8D5E030036E8E7 /* Framework3Tests.swift */; };
 		3A62F5771E8D5E030036E8E7 /* Framework3.h in Headers */ = {isa = PBXBuildFile; fileRef = 3A62F5691E8D5E030036E8E7 /* Framework3.h */; settings = {ATTRIBUTES = (Public, ); }; };
@@ -25,6 +26,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		3A26680A1E8E60E40086E95F /* FrameworkObjC1.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = FrameworkObjC1.framework; path = "../FrameworkObjC1/build/Debug-iphoneos/FrameworkObjC1.framework"; sourceTree = "<group>"; };
 		3A62F5661E8D5E030036E8E7 /* Framework3.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Framework3.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		3A62F5691E8D5E030036E8E7 /* Framework3.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Framework3.h; sourceTree = "<group>"; };
 		3A62F56A1E8D5E030036E8E7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -98,6 +100,7 @@
 		3A62F5851E8D5E950036E8E7 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				3A26680A1E8E60E40086E95F /* FrameworkObjC1.framework */,
 				3A62F58A1E8D5E9B0036E8E7 /* Framework2.framework */,
 				3A62F5861E8D5E950036E8E7 /* Framework1.framework */,
 				3A62F5871E8D5E950036E8E7 /* Framework2.framework */,
@@ -113,6 +116,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				3A62F5771E8D5E030036E8E7 /* Framework3.h in Headers */,
+				3A26680D1E8E69E50086E95F /* Test3.swift in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
