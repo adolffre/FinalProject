@@ -1,17 +1,21 @@
 {
-  "commitish" : "ae95f6d8d1ed3fc802334a6b970487bf2fc87898",
+  "commitish" : "5024c1d8d9f8e2dc3bfdf70da94c4672778f08b1",
   "iOS" : [
     {
-      "hash" : "e527b9671b41a3f508ef8498428f6dc21c805fd6b87446ba3d6152fd9310be4d",
+      "hash" : "249da372f8e9256e1483e9f558c94bfe8c325ab892c14933f24a8303c940f70c",
       "name" : "Framework2"
     },
     {
-      "hash" : "848020ad9f7d060b0557aab7ba4c6e9b279470e280a5db7af1a9e6e3ab4a8a2a",
-      "name" : "Framework1"
+      "hash" : "625bd96ed56cf05b22601f9c9fb40654997ab01b24c66e0295604a1660d5703c",
+      "name" : "Framework3"
     },
     {
-      "hash" : "6f14b6290d35dd66d5c31c3ccd93fdf4899c74ea4eddf5bba6e169909099adb3",
+      "hash" : "7cfa890c0b7234b8ba853d956cc0db155a159ede9cdcc3d8bec447f4eebf81cf",
       "name" : "FrameworkObjC1"
+    },
+    {
+      "hash" : "0fcd84e016dd9d79498618aef9f4db1014599ce1c9a0d66d0d0593010661e0f4",
+      "name" : "Framework1"
     }
   ],
   "xcodeVersion" : "Xcode 8.2.1\nBuild version 8C1002",

@@ -1,6 +1,6 @@
 # FinalProject
 
-NEW APP
+NEW APP (example https://github.com/adolffre/Frameworks.git)
 
 create a workspace
 
@@ -10,6 +10,14 @@ drag and drop to this workspace
 
 add dependencies at build phases
 
+if the framework is in ObjC
+ -add the headers that you want to see when you import this framework -> Build Phases/Headers/Public
+ -import the headers that you want to have access when you import this framework at the "Framework.h". 
+ 	for example
+ 	"#import <FrameworkObjC1/TestObjC1.h>"
+ -set Defines Module = YES at Build Settings
+ 
+
 go to manage schemes - select shared for all frameworks
 
 create a empty cartfile
@@ -18,9 +26,10 @@ terminal = carthage build --no-skip-current
 
 push to repo
 
+
 At the final project creat a cartfile
 for example 
-git "https://github.com/adolffre/AllFrameworks.git" "master"
+git "https://github.com/adolffre/Frameworks.git" "master"
 
 terminal = carthage update
 
