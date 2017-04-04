@@ -11,11 +11,15 @@ drag and drop to this workspace
 add dependencies at build phases
 
 if the framework is in ObjC
- -add the headers that you want to see when you import this framework -> Build Phases/Headers/Public
- -import the headers that you want to have access when you import this framework at the "Framework.h". 
- 	for example
- 	"#import <FrameworkObjC1/TestObjC1.h>"
- -set Defines Module = YES at Build Settings
+
+-add the headers that you want to see when you import this framework -> Build Phases/Headers/Public
+
+-import the headers that you want to have access when you import this framework at the "Framework.h". 
+
+for example
+"#import <FrameworkObjC1/TestObjC1.h>"
+
+-set Defines Module = YES at Build Settings
  
 
 go to manage schemes - select shared for all frameworks
@@ -42,5 +46,7 @@ On your application targets’ “Build Phases” settings tab, click the “+�
 and add the paths to the frameworks you want to use under “Input Files”, e.g.:
 
 $(SRCROOT)/Carthage/Build/iOS/Framework1.framework
+
 $(SRCROOT)/Carthage/Build/iOS/Framework2.framework
+
 $(SRCROOT)/Carthage/Build/iOS/Framework3.framework
